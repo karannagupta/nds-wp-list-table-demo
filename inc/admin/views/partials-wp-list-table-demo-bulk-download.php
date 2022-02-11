@@ -8,7 +8,7 @@
 		<h2> <?php echo __('Process bulk operations for the selected users: <br>', $this->plugin_text_domain ); ?> </h2>
 		<h4>
 			<ul>
-			<?php
+			<?php if (is_array($bulk_user_ids))
 				foreach( $bulk_user_ids as $user_id ) {
 					$user = get_user_by( 'id', $user_id );
 					echo '<li>' . $user->display_name . ' (' . $user->user_login . ')' . '</li>';

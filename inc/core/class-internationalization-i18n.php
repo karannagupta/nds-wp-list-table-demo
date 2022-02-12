@@ -1,6 +1,6 @@
 <?php
 
-namespace NDS_WP_List_Table_Demo\Inc\Core;
+namespace RX_Author_Revenue_Manager\Inc\Core;
 
 /**
  * Define the internationalization functionality.
@@ -8,10 +8,10 @@ namespace NDS_WP_List_Table_Demo\Inc\Core;
  * Loads and defines the internationalization files for this plugin
  * so that it is ready for translation.
  *
- * @link       https://www.nuancedesignstudio.in
+ * @link       https://www.arixstudio.com
  * @since      1.0.0
  *
- * @author     Karan NA Gupta
+ * @author     arixstudio
  */
 class Internationalization_i18n {
 
@@ -41,7 +41,7 @@ class Internationalization_i18n {
 		load_plugin_textdomain(
 			$this->text_domain,
 			false,
-			dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
+			dirname( dirname( dirname( plugin_basename( __FILE__ ) ) ) ) . '/languages/'
 		);
 	}
 }

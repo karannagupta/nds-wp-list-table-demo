@@ -1,6 +1,6 @@
 <?php
 
-namespace RX_Author_Revenue_Manager\Inc\Core;
+namespace NDS_WP_List_Table_Demo\Inc\Core;
 
 /**
  * Define the internationalization functionality.
@@ -8,10 +8,10 @@ namespace RX_Author_Revenue_Manager\Inc\Core;
  * Loads and defines the internationalization files for this plugin
  * so that it is ready for translation.
  *
- * @link       https://www.arixstudio.com
+ * @link       https://www.nuancedesignstudio.in
  * @since      1.0.0
  *
- * @author     arixstudio
+ * @author     Karan NA Gupta
  */
 class Internationalization_i18n {
 
